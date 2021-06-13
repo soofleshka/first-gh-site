@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(../img/first-bg.jpg.png) no-repeat center top / cover;
+  height: 100vh;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 45px;
+}
+
+nav {
+  float: right;
+  margin-top: 50px;
+}
+
+.menu {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 40px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.titles {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.titles__first {
+  font-size: 40px;
+  margin-top: 190px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.title_button {
+  background: #fed136;
+  color: #484543;
+  display: block;
+  border-radius: 3px;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 65px;
+}
+
+.title {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.title h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #777777;
+}
+.services {
+  margin-top: 80px;
+}
+.services__item {
+  width: 280px;
+  float: left;
+  text-align: center;
+}
+
+.services__item h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.services__item p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.5em;
+}
+
+.services__item:last-child {
+  float: right;
+}
+
+.services__item:nth-child(2) {
+  margin-left: 53px;
+}
+
+#services {
+  padding-bottom: 120px;
+}
+
+#portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.examples {
+  margin-top: 85px;
+}
+.examples img {
+  margin-right: 20px;
+}
+
+.examples :last-child {
+  float: right;
+}
+
+#about {
+  padding-bottom: 120px;
+}
+
+.abouts {
+  margin: 75px 0;
+}
+
+.abouts h3,
+h4 {
+  margin: 0;
+}
+
+.abouts h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.abouts p {
+  color: #777;
+}
+
+.about__first__column {
+  float: left;
+  height: 1px;
+  width: 330px;
+  text-align: right;
+}
+.about__last__column {
+  float: left;
+  height: 1px;
+  width: 330px;
+  text-align: left;
+}
+
+.about__img img {
+  float: left;
+  margin: 0 40px;
+}
+
+footer p {
+  color: #555;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 100px;
+  margin: 0;
+}
